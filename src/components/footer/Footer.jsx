@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <div>
+      <div>Made With <span style={{"color": "red"}}>&hearts;</span></div>
+      <div></div>
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;
